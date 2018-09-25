@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+    color: rgb(150, 148, 148);
+  }
+
+  body{
+    font-size: 20px;
+    font-family: 'Calibri', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    background: grey;
+  }
+
+  .pageTop{
+    padding: 30px;
+    background: lightgrey;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+  }
+
+  #sec{
+      float:left;
+      margin-top: 20px;
+      margin-left: 10%;
+      padding:10px;
+      padding-top:30px;
+      overflow: auto;
+      width: 45%;
+      background: lightgrey;
+  }
+
+  #asi{
+    width: 33.5%;
+    float:left;
+    background: lightgrey;
+    margin-top: 20px;
+    margin-left: 1.5%;
+    padding-top:30px;
+    padding-bottom: 250px;
+    margin-bottom:20px;
+
+  }
+
+  #art{
+
+    background: rgb(97, 95, 95);
+    padding: 20px;
+    margin-top: 30px;
+    overflow:auto;
+
+  }
+  #h1s{
+      margin-top: 20px;
+      background:lightgrey;
+      padding:20px;
+  }
+  #ps{
+      margin-top:10px;
+      padding:20px;
+      background:lightgrey;
+  }
+
+#foot{
+    clear:both;
+    padding:30px;
+    background: lightgrey;
+    width:80%;
+    margin-left:10%;
+}
