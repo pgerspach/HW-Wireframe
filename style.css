@@ -1,70 +1,89 @@
 * {
     box-sizing: border-box;
     text-align: center;
-    color: rgb(150, 148, 148);
   }
 
   body{
-    font-size: 20px;
-    font-family: 'Calibri', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-    background: grey;
+    font-size: 18px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background: #777;
+    color: #777;
+    width: 980px; /* requirement */
+    margin: 0px;
   }
 
-  .pageTop{
+  .pageTop{ /* header and nav*/
     padding: 30px;
-    background: lightgrey;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
+    background: #ebebeb;
+    width: 880px; 
+    margin-left: 50px;
+    margin-right: 50px;
     margin-top: 10px;
   }
 
-  #sec{
+  #sec{ /* section on left which includes article, the headers, and p */
       float:left;
       margin-top: 20px;
-      margin-left: 10%;
+      margin-left: 50px;
       padding:10px;
       padding-top:30px;
       overflow: auto;
-      width: 45%;
-      background: lightgrey;
+      width: 495px;
+      background: #ebebeb;
   }
 
-  #asi{
-    width: 33.5%;
+  #asi{ /* aside */
     float:left;
-    background: lightgrey;
+    background: #ebebeb;
+    width: 365px;
     margin-top: 20px;
-    margin-left: 1.5%;
+    margin-left: 20px;
     padding-top:30px;
-    padding-bottom: 250px;
+    padding-bottom: 244px;
     margin-bottom:20px;
 
   }
 
-  #art{
+  #art{  /* article props */
 
-    background: rgb(97, 95, 95);
+    background: #777;
     padding: 20px;
     margin-top: 30px;
     overflow:auto;
+    color: #ebebeb;
 
   }
-  #h1s{
+  #h1s{  /*wrapping of the three headers */
       margin-top: 20px;
-      background:lightgrey;
+      background:#ebebeb;
       padding:20px;
+      padding-left: 175px;
+      overflow:auto;
   }
-  #ps{
+  #ps{  /* takes care of the paragraph header */
       margin-top:10px;
       padding:20px;
-      background:lightgrey;
+      background:#ebebeb;
+      color: #777;
   }
 
-#foot{
+#foot{  /* foooting */
     clear:both;
     padding:30px;
-    background: lightgrey;
-    width:80%;
-    margin-left:10%;
+    background: #ebebeb;
+    width:880px;
+    margin-left:50px;
+}
+h1,h2,h3{  /* the three headers */
+  float:left;
+  font-weight:bold;
+  margin-right: 5px;
+  color: #777;
+}
+
+#artCol{ /* article color was undone with header tag so this resets it as the light grey */
+  color: #ebebeb;
+}
+h4{
+  color: #777;
 }
