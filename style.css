@@ -9,7 +9,7 @@
     background: #777;
     color: #777;
     width: 980px; /* requirement */
-    margin: 0px;
+    margin: auto;
   }
 
   .pageTop{ /* header and nav*/
